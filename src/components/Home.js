@@ -6,6 +6,9 @@ import screens from '../../public/assets/images/screens.png'
 import logo2 from '../../public/assets/images/logo2.png'
 import playStore from '../../public/assets/images/playstore.png'
 import appStore from '../../public/assets/images/appstore.png'
+import { FaFacebookF } from 'react-icons/fa'
+import { BsTwitter,BsLinkedin } from 'react-icons/bs'
+import { AiFillInstagram } from 'react-icons/ai'
 
 
 
@@ -25,12 +28,29 @@ const Home = () => {
                 <div className='h-[34rem] w-[50%] absolute rounded-3xl my-auto bg-[#ff6896] z-0'>
 
                 </div>
-                <div className='h-[23rem] my-20 w-[60%] absolute z-10 ml-32'>
+                <div className='h-[28rem] my-10 w-[60%] absolute z-10 ml-32 flex flex-col'>
                     <div className='h-full w-full relative'>
                         <Image
                             src={screens}
                             fill
                         />
+                    </div>
+                    <div className=''>
+                        <h1 className={`${styles.myFont} text-white text-md font-semibold`}>Keza Quiz</h1>
+                        <div className='w-[130px] flex justify-between'>
+                            <div className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
+                                <FaFacebookF className='text-[#ff6896] text-xs'/>
+                            </div>
+                            <div className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
+                                <BsTwitter className='text-[#ff6896] text-xs'/>
+                            </div>
+                            <div className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
+                                <BsLinkedin className='text-[#ff6896] text-xs'/>
+                            </div>
+                            <div className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
+                                <AiFillInstagram className='text-[#ff6896] text-sm'/>
+                            </div>
+                        </div>
                     </div>
                 </div>
                
@@ -45,13 +65,13 @@ const Home = () => {
                 <h1 className={`${styles.myFont2} uppercase text-lg text-[#ff6896] mt-10`}>keza quiz</h1>
                 <p className={`${styles.myFont} text-md text-black`} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia optio adipisci obcaecati voluptate? Sed maiores officiis nisi consequatur harum optio.</p>
                 <div className='flex w-2/3 justify-between mt-10'>
-                    <div className='h-[40px] w-[130px] relative'>
+                    <div className='h-[40px] w-[130px] relative cursor-pointer'>
                         <Image
                             src={appStore}
                             fill
                         />
                     </div>
-                    <div className='h-[40px] w-[130px] relative'>
+                    <div className='h-[40px] w-[130px] relative cursor-pointer'>
                         <Image
                             src={playStore}
                             fill
