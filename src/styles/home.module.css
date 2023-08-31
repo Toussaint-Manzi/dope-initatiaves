@@ -7,3 +7,32 @@
 .myFont2{
     font-family: 'Sigmar One', cursive;
 }
+
+@media (max-width: 767px) {
+    .medium {
+        width: 100%;
+    }
+
+    .pink {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .div2{
+        width: 90%;
+        height: 32rem;
+        margin: 50px ;
+    }
+
+    .keza{
+        width: 70%;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .iconContainer{
+        border: 2px solid #ff6896;
+        height: 35px;
+        width: 35px;
+    }
+}
