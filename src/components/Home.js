@@ -67,7 +67,7 @@ const Home = () => {
                     />
                 </div>
                 <h1 className={`${styles.myFont2} uppercase text-lg text-[#ff6896] mt-10`}>keza quiz</h1>
-                <p className={`${styles.myFont} text-md text-black`} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia optio adipisci obcaecati voluptate? Sed maiores officiis nisi consequatur harum optio.</p>
+                <p className={`${styles.myFont} text-md text-black`} >Keza Quiz is a game based online quiz that educates on the right information about sexual and reproductive health.</p>
                 <div className='flex w-2/3 justify-between mt-10 xtra:w-[90%]'>
                     <div className='h-[45px] w-[130px] relative cursor-pointer'>
                         <Image
