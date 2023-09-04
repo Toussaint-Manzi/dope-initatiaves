@@ -27,7 +27,7 @@ const Home = () => {
                 />
             </div>
         </div>
-        <div className={`w-full h-full flex justify-between  md:flex-col md:justify-between md:h-[1000px] md:items-center`}>
+        <div className={`w-full flex justify-between  md:flex-col md:justify-between md:h-[1000px] md:items-center`}>
             <div className={`${styles.medium} w-[60%] flex self-start relative xl:w-[70%] md:w-[90%]`}>
                 <div className={`${styles.pink} h-[34rem] w-[50%] absolute rounded-3xl my-auto bg-[#ff6896] z-0 larg:w-[60%]`}>
 
