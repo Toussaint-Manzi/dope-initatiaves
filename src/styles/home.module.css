@@ -36,3 +36,25 @@
         width: 35px;
     }
 }
+
+@media (max-width: 670px) {
+    .div2{
+        margin: 50px 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .div2{
+        height: 22rem;
+        width: 100%;
+        margin: 50px 10px;
+    }
+
+    .pink {
+        height: 14rem;
+    }
+
+    .keza{
+        width: 90%;
+    }
+}

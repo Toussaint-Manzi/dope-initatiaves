@@ -8,6 +8,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        '2xl': {'max': '1535px'},
+        'xl': {'max': '1279px'},
         'xsm': {'min': '480px'},    
         'msm': {'min': '700px'},
         'lg': {'max': '1025px'},
@@ -15,12 +17,9 @@ module.exports = {
         'md': {'max': '767px'},
         'mdd': {'min': '767px'},
         'sm': {'max': '700px'},
-        'xtra': {'max': '400px'},    
         'lgm': {'min': '1025px'},
-        '2xl': {'max': '1535px'},
         'xs': {'max': '500px'},
-        'xl': {'max': '1279px'},
-
+        'xtra': {'max': '400px'},    
       },
       fontFamily: {
         'sans': ['Outfit', 'sans-serif'],
