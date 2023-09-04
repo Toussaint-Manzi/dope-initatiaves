@@ -14,7 +14,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 
 const Home = () => {
   return (
-    <div className={`${styles.myFont}flex flex-col h-screen bg-white px-44 xl:px-20 md:h-full`}>
+    <div className={`${styles.myFont}flex flex-col h-screen bg-white px-44 xl:px-20 md:h-full xs:px-10`}>
         <div className='flex justify-end'>
             <div className=' w-32 h-24 relative '>
                 <Image
@@ -23,12 +23,12 @@ const Home = () => {
                 />
             </div>
         </div>
-        <div className={`w-full h-full flex justify-between items-center md:flex-col md:justify-between md:h-[1000px]`}>
+        <div className={`w-full h-full flex justify-between  md:flex-col md:justify-between md:h-[1000px] md:items-center`}>
             <div className={`${styles.medium} w-[60%] flex self-start relative xl:w-[70%] md:w-[90%]`}>
                 <div className={`${styles.pink} h-[34rem] w-[50%] absolute rounded-3xl my-auto bg-[#ff6896] z-0 larg:w-[60%]`}>
 
                 </div>
-                <div className={`${styles.div2} h-[28rem] my-10 w-[60%] absolute z-10 ml-32 flex flex-col larg:w-[70%] larg:ml-24`}>
+                <div className={`${styles.div2} h-[28rem] my-10 w-[60%] absolute z-10 ml-32 flex flex-col larg:w-[70%] larg:ml-24 xs:h-[28rem]`}>
                     <div className='h-full w-full relative'>
                         <Image
                             src={screens}
@@ -77,7 +77,12 @@ const Home = () => {
                             fill
                         />
                     </div>
+                    
                 </div>
+                <button class="bg-black w-2/3  text-white hover:bg-gray-800  font-medium py-2 px-4 rounded inline-flex items-center mt-5">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                    <span>Download for windows</span>
+                </button>
             </div>
         </div>
         <div className='mdd:hidden -mt-10 mb-20'>
