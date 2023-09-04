@@ -13,6 +13,10 @@ import { AiFillInstagram } from 'react-icons/ai'
 
 
 const Home = () => {
+
+    const fileId = '1jNU2NCDZn9pJlphvg3XkIIInzk6JgTyU'
+    const downloadUrl = `https://drive.google.com/uc?id=${fileId}&export=download`;
+
   return (
     <div className={`${styles.myFont}flex flex-col h-screen bg-white px-44 xl:px-20 md:h-full xs:px-10`}>
         <div className='flex justify-end'>
@@ -79,10 +83,10 @@ const Home = () => {
                     </div>
                     
                 </div>
-                <button class="bg-black w-2/3  text-white hover:bg-gray-800  font-medium py-2 px-4 rounded inline-flex items-center mt-5">
-                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                <a href={downloadUrl} rel="noopener noreferrer" className="bg-black w-2/3  text-white hover:bg-gray-800  font-medium py-3 px-4 rounded inline-flex items-center mt-5">
+                    <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
                     <span>Download for windows</span>
-                </button>
+                </a>
             </div>
         </div>
         <div className='mdd:hidden -mt-10 mb-20'>
