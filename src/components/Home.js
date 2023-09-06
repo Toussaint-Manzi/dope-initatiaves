@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/home.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 import logo from '../../public/assets/images/logo.png'
 import screens from '../../public/assets/images/screens.png'
 import logo2 from '../../public/assets/images/logo2.png'
@@ -106,6 +107,9 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <div className='w-full justify-self-end'>
+        <Link href='/privacy' className='text-black underline font-semibold'>Privacy Policy</Link>
+            </div>
     </div>
   )
 }
