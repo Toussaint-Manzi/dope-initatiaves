@@ -1,13 +1,14 @@
 import React from 'react'
 import styles from '../styles/home.module.css'
+import Link from 'next/link';
 import Image from 'next/image'
-import Link from 'next/link'
 import logo from '../../public/assets/images/logo.png'
 import screens from '../../public/assets/images/screens.png'
 import logo2 from '../../public/assets/images/logo2.png'
 import playStore from '../../public/assets/images/playstore.png'
 import appStore from '../../public/assets/images/appstore.png'
 import { FaFacebookF } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 import { BsTwitter,BsLinkedin } from 'react-icons/bs'
 import { AiFillInstagram } from 'react-icons/ai'
 
@@ -43,18 +44,18 @@ const Home = () => {
                     <div className='md:hidden'>
                         <h1 className={`${styles.myFont} text-white text-md font-semibold`}>Keza Quiz</h1>
                         <div className='w-[130px] flex justify-between'>
-                            <div className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
-                                <FaFacebookF className='text-[#ff6896] text-xs'/>
-                            </div>
-                            <div className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
-                                <BsTwitter className='text-[#ff6896] text-xs'/>
-                            </div>
-                            <div className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
-                                <BsLinkedin className='text-[#ff6896] text-xs'/>
-                            </div>
-                            <div className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
-                                <AiFillInstagram className='text-[#ff6896] text-sm'/>
-                            </div>
+                            <Link href="https://facebook.com" className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
+                                    <FaFacebookF className='text-[#ff6896] text-xs'/>
+                            </Link>
+                            <Link href="https://x.com/kezagame?s=11" className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
+                                    <BsTwitter className='text-[#ff6896] text-xs'/>
+                            </Link>
+                            <Link href="https://www.linkedin.com/company/keza-game-quiz/" className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
+                                    <BsLinkedin className='text-[#ff6896] text-xs'/>
+                            </Link>
+                            <Link href="https://instagram.com/kezagamequiz?igshid=MzRlODBiNWFlZA==" className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
+                                    <AiFillInstagram className='text-[#ff6896] text-sm'/>
+                            </Link>
                         </div>
                     </div>
                 </div>
