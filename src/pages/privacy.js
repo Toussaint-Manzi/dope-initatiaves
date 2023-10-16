@@ -75,7 +75,7 @@ const privacy = () => {
                 </div>
                 <div className='mt-5'>
                     <h1 className='mb-4 xs:text-sm font-bold text-black'>{`Contact Us`}</h1>
-                    <h1 className='mb-2 text-black'>{`If you have any questions or concerns about this Privacy Policy or our data practices please contact us at,`} <a className='text-blue-500' href="dopeinitiativesltd@gmail.com">dopeinitiativesltd@gmail.com</a></h1>
+                    <h1 className='mb-2 text-black'>{`If you have any questions or concerns about this Privacy Policy or our data practices please contact us at,`} <a className='text-blue-500' href="mailto:dopeinitiativesltd@gmail.com">dopeinitiativesltd@gmail.com</a></h1>
                 </div>
                 <div className='mt-5'>
                     <h1 className='mb-2 text-black'>{`By using the App, you acknowledge that you have read and agree to this Privacy Policy. We may update this Privacy Policy from time to time, and the updated version will be posted on our website and within the App. It is your responsibility to review this Privacy Policy periodically for any changes.`}</h1>
