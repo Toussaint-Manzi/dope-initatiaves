@@ -9,8 +9,8 @@ import squareImage1 from '../../../public/assets/images/slider-icon2.svg';  // U
 
 const About = () => {
   return (
-    <div className='bg-white w-[60%] mx-auto'>
-        <div className='flex flex-col items-start self-start mt-24'>
+    <div className='bg-white w-[60%] mx-auto py-32'>
+        <div className='flex flex-col items-start self-start'>
           <h1 className='roboto uppercase text-[15px] text-[#FF0054] font-semibold'>Dope Initiatives</h1>
           <div className='grotesk leading-tight'>
             <h1 className='text-[55px] text-black font-[500] w-[65%]'>I will help you increase your reach</h1>

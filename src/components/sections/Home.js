@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { FaArrowRight } from "react-icons/fa";
 import Image from 'next/image';
-import personImage from '../../../public/assets/images/character1.webp';  // Update the path to your main PNG image
-import squareImage1 from '../../../public/assets/images/slider-icon2.svg';  // Update the path to your square PNG images
+import personImage from '../../../public/assets/images/character1.webp';
+import squareImage1 from '../../../public/assets/images/slider-icon2.svg';
 
 const Home = () => {
   return (
