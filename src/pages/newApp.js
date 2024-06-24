@@ -1,11 +1,15 @@
 import Navbar from '@/components/Navbar'
+import Home from '@/components/sections/Home'
 import React from 'react'
 
 const newApp = () => {
   return (
     <div className='bg-white'>
-      <div className='w-[60%] mx-auto h-full'>
+      <div className='h-full'>
         <Navbar/>
+        <section id="Home" className="h-screen">
+          <Home/>
+        </section>
       </div>
     </div>
   )
