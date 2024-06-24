@@ -10,9 +10,9 @@ import squareImage1 from '../../../public/assets/images/slider-icon2.svg';
 
 const Contact = () => {
   return (
-    <div className='bg-[#F9F0EC] h-full'>
+    <div className='bg-[#F9F0EC] h-full pb-20'>
         <div
-            className='w-full h-full'
+            className='w-full'
             style={{
                 backgroundColor: '#F9F0EC',
                 backgroundImage: 'url(/assets/images/background2.png)',
@@ -59,7 +59,7 @@ const Contact = () => {
                 <h1 className='text-[30px] text-black font-[400] my-16'>dopeinitiativesltd@gmail.com</h1>
             </div>
         </div>
-        <div className='relative bg-white w-[60%] mx-auto flex flex-col justify-between items-start h-full rounded-3xl grotesk px-20 my-48'>
+        <div className='relative bg-white w-[60%] mx-auto flex flex-col justify-between items-start h-full rounded-3xl grotesk px-20 mt-48'>
             <div className='flex justify-between items-start '>
                 <div className='w-[40%] flex flex-col justify-center items-center'>
                     <div className='absolute -top-24 h-[270px] w-[300px] my-8'>

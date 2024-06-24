@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import About from '@/components/sections/About'
 import Contact from '@/components/sections/Contact'
@@ -7,18 +8,17 @@ import React from 'react'
 const newApp = () => {
   return (
     <div className='bg-white'>
-      <div className='h-full'>
-        <Navbar/>
-        <section id="Home">
-          <Home/>
-        </section>
-        <section id="About">
-          <About/>
-        </section>
-        <section id="About">
-          <Contact/>
-        </section>
-      </div>
+      <Navbar/>
+      <section id="Home">
+        <Home/>
+      </section>
+      <section id="About">
+        <About/>
+      </section>
+      <section id="Contact">
+        <Contact/>
+      </section>
+      <Footer/>
     </div>
   )
 }
