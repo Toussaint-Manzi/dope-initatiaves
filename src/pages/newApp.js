@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar'
+import About from '@/components/sections/About'
 import Home from '@/components/sections/Home'
 import React from 'react'
 
@@ -9,6 +10,9 @@ const newApp = () => {
         <Navbar/>
         <section id="Home" className="h-screen">
           <Home/>
+        </section>
+        <section id="Home" className="h-screen">
+          <About/>
         </section>
       </div>
     </div>
