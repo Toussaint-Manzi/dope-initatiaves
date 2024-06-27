@@ -31,15 +31,15 @@ const ProductDetails = ({
       }}
     >
       <div className='w-[60%] mx-auto flex justify-between items-center h-full '>
-        <div className='flex flex-col items-start self-start mt-48 w-[40%]'>
+        <div className='flex flex-col items-start self-start mt-48 w-[50%]'>
           <h1 className='roboto uppercase text-[15px] text-[#FF0054] font-semibold'>{title}</h1>
           <div className='grotesk leading-tight'>
             <h1 className='text-[30px] text-black font-[600] '>{details}</h1>
           </div>
-            <div className='w-32 h-24 relative mt-10'>
+            <div className={title === "Ishyo E-shop"? 'w-32 h-16 relative mt-10' : 'w-32 h-24 relative mt-10'}>
                 <Image src={logo} fill alt="Logo" />
             </div>
-            <div className='flex w-2/3 justify-between mt-10 xtra:w-[90%]'>
+            <div className='flex w-[50%] justify-between mt-10 xtra:w-[90%]'>
                 <div className='h-[45px] w-[130px] relative cursor-pointer'>
                     <Image
                         src={appStore}
@@ -54,7 +54,7 @@ const ProductDetails = ({
                 </div>
                 
             </div>
-            <a href={downloadUrl} rel="noopener noreferrer" className="bg-black w-2/3  text-white hover:bg-gray-800  font-medium py-3 px-4 rounded inline-flex items-center mt-5 xtra:w-[90%]">
+            <a href={downloadUrl} rel="noopener noreferrer" className="bg-black w-[50%] text-white hover:bg-gray-800  font-medium py-3 px-4 rounded inline-flex items-center mt-5 xtra:w-[90%]">
                 <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
                 <span>Download for windows</span>
             </a>
