@@ -16,7 +16,7 @@ const About = () => {
         <div className='flex flex-col items-start self-start'>
           <h1 className='roboto uppercase text-[15px] text-[#FF0054] font-semibold'>Dope Initiatives</h1>
           <div className='grotesk leading-tight'>
-            <h1 className='text-[55px] text-black font-[500] w-[65%]'>I will help you increase your reach</h1>
+            <h1 className='text-[55px] text-black font-[500] w-[65%]'>Championing reproductive health awareness and access to essential resources.</h1>
           </div>
         </div>
         <div className='flex justify-between mt-20'>
@@ -30,9 +30,9 @@ const About = () => {
                         fill
                     />
                 </div>
-                <h1 className='grotesk text-[25px] text-black font-[400] leading-4'>Keza Quiz</h1>
-                <h1 className='grotesk text-[25px] text-black font-[400]'>Game</h1>
-                <h1 className='grotesk text-[17px] text-gray-500 font-[300] mt-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, sapiente?</h1>
+                <h1 className='grotesk text-[25px] text-black font-[400] leading-4'>Dope</h1>
+                <h1 className='grotesk text-[25px] text-black font-[400]'>Initiative</h1>
+                <h1 className='grotesk text-[17px] text-gray-500 font-[300] mt-5'>Restoring Dignity in Women</h1>
                 <FaArrowRight className='text-black text-2xl mt-10'/>
             </div>
             <div>
@@ -47,7 +47,7 @@ const About = () => {
                 </div>
                 <h1 className='grotesk text-[25px] text-black font-[400] leading-4'>Keza Quiz</h1>
                 <h1 className='grotesk text-[25px] text-black font-[400]'>Game</h1>
-                <h1 className='grotesk text-[17px] text-gray-500 font-[300] mt-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, sapiente?</h1>
+                <h1 className='grotesk text-[17px] text-gray-500 font-[300] mt-5'>Where learning and play meet.</h1>
                 <FaArrowRight className='text-black text-2xl mt-10'/>
             </div>
             <div>
@@ -60,9 +60,9 @@ const About = () => {
                         fill
                     />
                 </div>
-                <h1 className='grotesk text-[25px] text-black font-[400] leading-4'>Keza Quiz</h1>
-                <h1 className='grotesk text-[25px] text-black font-[400]'>Game</h1>
-                <h1 className='grotesk text-[17px] text-gray-500 font-[300] mt-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, sapiente?</h1>
+                <h1 className='grotesk text-[25px] text-black font-[400] leading-4'>Ishyo</h1>
+                <h1 className='grotesk text-[25px] text-black font-[400]'>E-shop</h1>
+                <h1 className='grotesk text-[17px] text-gray-500 font-[300] mt-5'>Embracing Motherhood</h1>
                 <FaArrowRight className='text-black text-2xl mt-10'/>
             </div>
             <div>
@@ -75,9 +75,9 @@ const About = () => {
                         fill
                     />
                 </div>
-                <h1 className='grotesk text-[25px] text-black font-[400] leading-4'>Keza Quiz</h1>
-                <h1 className='grotesk text-[25px] text-black font-[400]'>Game</h1>
-                <h1 className='grotesk text-[17px] text-gray-500 font-[300] mt-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, sapiente?</h1>
+                <h1 className='grotesk text-[25px] text-black font-[400] leading-4'>Keza Pad</h1>
+                <h1 className='grotesk text-[25px] text-black font-[400]'>Bank</h1>
+                <h1 className='grotesk text-[17px] text-gray-500 font-[300] mt-5'>Dispensing Decency</h1>
                 <FaArrowRight className='text-black text-2xl mt-10'/>
             </div>
         </div>

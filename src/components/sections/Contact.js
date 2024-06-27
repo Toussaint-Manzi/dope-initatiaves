@@ -72,7 +72,7 @@ const Contact = () => {
                     </div>
                     <div className='mt-64'>
                         <h1 className='roboto text-[35px] text-black font-bold leading-tight'>Send us a message.</h1>
-                        <h1 className='text-[38px] text-black font-[400] leading-tight'>We will contact you and give you our proposal completely free of charge</h1>
+                        <h1 className='text-[38px] text-black font-[400] leading-tight'>Feel free to reach out, We will get back to you shortly</h1>
                     </div>
                 </div>
                 <form action="" className='w-[50%] px-5 py-10'>
