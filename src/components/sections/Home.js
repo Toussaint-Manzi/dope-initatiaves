@@ -2,8 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import { FaArrowRight } from "react-icons/fa";
 import Image from 'next/image';
-import personImage from '../../../public/assets/images/character1.webp';
-import squareImage1 from '../../../public/assets/images/slider-icon2.svg';
+import personImage from '../../../public/assets/images/Pose 1.png';
+import logo1 from '../../../public/assets/images/logo.png';
+import logo2 from '../../../public/assets/images/Logo-2.png';
+import logo3 from '../../../public/assets/images/LOGO-KEZA-QUIZ.png';
 
 const Home = () => {
   return (
@@ -36,22 +38,22 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className='relative w-[45%] h-[90%]'>
+        <div className='relative w-[55%] h-[100%]'>
           <Image
             src={personImage}
             layout="fill"
             objectFit="contain"
             alt="Person"
-            style={{ top: '0%', left: '25%' }}
+            style={{ top: '0%', left: '10%' }}
           />
-          <div className='absolute w-[70px] h-[70px] animate-bounce' style={{ top: '40%', left: '5%' }}>
-            <Image src={squareImage1} width={70} height={70} alt="Square 1"/>
+          <div className='absolute w-[150px] h-[150px] animate-bounce' style={{ top: '40%', left: '5%' }}>
+            <Image src={logo1} width={100} height={100} alt="Square 1"/>
           </div>
-          <div className='absolute w-[70px] h-[70px] animate-bounce' style={{ top: '10%', right: '5%' }}>
-            <Image src={squareImage1} width={70} height={70} alt="Square 2"/>
+          <div className='absolute w-[150px] h-[150px] animate-bounce' style={{ top: '10%', right: '5%' }}>
+            <Image src={logo2} width={100} height={100} alt="Square 2"/>
           </div>
-          <div className='absolute w-[70px] h-[70px] animate-bounce' style={{ top: '50%', left: '100%' }}>
-            <Image src={squareImage1} width={70} height={70} alt="Square 3"/>
+          <div className='absolute w-[150px] h-[150px] animate-bounce' style={{ top: '50%', left: '100%' }}>
+            <Image src={logo3} width={100} height={100} alt="Square 3"/>
           </div>
         </div>
       </div>

@@ -3,6 +3,9 @@ import Link from 'next/link';
 import { FaArrowRight } from "react-icons/fa";
 import Image from 'next/image';
 import logo2 from '../../../public/assets/images/logo2.png'
+import logo1 from '../../../public/assets/images/logo.png';
+import logo4 from '../../../public/assets/images/shop.png';
+import logo3 from '../../../public/assets/images/Logo-2.png';
 
 import personImage from '../../../public/assets/images/character1.webp';  // Update the path to your main PNG image
 import squareImage1 from '../../../public/assets/images/slider-icon2.svg';  // Update the path to your square PNG images
@@ -23,7 +26,7 @@ const About = () => {
                 </div>
                 <div className='h-[65px] w-[80px] relative my-8'>
                     <Image
-                        src={logo2}
+                        src={logo1}
                         fill
                     />
                 </div>
@@ -36,7 +39,7 @@ const About = () => {
                 <div className='h-[30px] w-[100px] bg-[#fcb900] text-white rounded flex flex-col justify-center px-2'>
                     <h1 className='font-semibold text-white roboto'>02</h1>
                 </div>
-                <div className='h-[65px] w-[80px] relative my-8'>
+                <div className='h-[45px] w-[70px] relative my-10'>
                     <Image
                         src={logo2}
                         fill
@@ -51,9 +54,9 @@ const About = () => {
                 <div className='h-[30px] w-[100px] bg-[#00d084] text-white rounded flex flex-col justify-center px-2'>
                     <h1 className='font-semibold text-white roboto'>03</h1>
                 </div>
-                <div className='h-[65px] w-[80px] relative my-8'>
+                <div className='h-[35px] w-[100px] relative my-12'>
                     <Image
-                        src={logo2}
+                        src={logo4}
                         fill
                     />
                 </div>
@@ -66,9 +69,9 @@ const About = () => {
                 <div className='h-[30px] w-[100px] bg-[#0693e3] text-white rounded flex flex-col justify-center px-2'>
                     <h1 className='font-semibold text-white roboto'>04</h1>
                 </div>
-                <div className='h-[65px] w-[80px] relative my-8'>
+                <div className='h-[85px] w-[120px] relative my-5'>
                     <Image
-                        src={logo2}
+                        src={logo3}
                         fill
                     />
                 </div>
