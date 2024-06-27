@@ -67,3 +67,7 @@ body {
 .animate-move-left-right {
   animation: move-left-right 5s infinite;
 }
+
+.group:hover .group-hover\:block {
+  display: block;
+}
