@@ -39,25 +39,28 @@ const ProductDetails = ({
             <div className={title === "Ishyo E-shop"? 'w-32 h-16 relative mt-10' : 'w-32 h-24 relative mt-10'}>
                 <Image src={logo} fill alt="Logo" />
             </div>
-            <div className='flex w-[50%] justify-between mt-10 xtra:w-[90%]'>
-                <div className='h-[45px] w-[130px] relative cursor-pointer'>
-                    <Image
-                        src={appStore}
-                        fill
-                    />
+            {title === "Keza Quiz Game" &&
+            <div className='w-full'>
+                <div className='flex w-[50%] justify-between mt-10 xtra:w-[90%]'>
+                    <div className='h-[45px] w-[130px] relative cursor-pointer'>
+                        <Image
+                            src={appStore}
+                            fill
+                        />
+                    </div>
+                    <div className='h-[45px] w-[130px] relative cursor-pointer'>
+                        <Image
+                            src={playStore}
+                            fill
+                        />
+                    </div>
+                    
                 </div>
-                <div className='h-[45px] w-[130px] relative cursor-pointer'>
-                    <Image
-                        src={playStore}
-                        fill
-                    />
-                </div>
-                
-            </div>
-            <a href={downloadUrl} rel="noopener noreferrer" className="bg-black w-[50%] text-white hover:bg-gray-800  font-medium py-3 px-4 rounded inline-flex items-center mt-5 xtra:w-[90%]">
-                <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-                <span>Download for windows</span>
-            </a>
+                <a href={downloadUrl} rel="noopener noreferrer" className="bg-black w-[50%] text-white hover:bg-gray-800  font-medium py-3 px-4 rounded inline-flex items-center mt-5 xtra:w-[90%]">
+                    <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                    <span>Download for windows</span>
+                </a>
+            </div>}
         </div>
         <div className='relative w-[45%] h-[100%]'>
           <Image
