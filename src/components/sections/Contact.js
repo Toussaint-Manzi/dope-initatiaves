@@ -4,9 +4,11 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { IoMdMail, IoIosSend } from "react-icons/io";
 import Image from 'next/image';
-import personImage from '../../../public/assets/images/contact.webp';
 import message from '../../../public/assets/images/message.webp';
-import squareImage1 from '../../../public/assets/images/slider-icon2.svg';
+import personImage from '../../../public/assets/images/Pose-2.png';
+import logo1 from '../../../public/assets/images/logo.png';
+import logo2 from '../../../public/assets/images/Logo-2.png';
+import logo3 from '../../../public/assets/images/LOGO-KEZA-QUIZ.png';
 
 const Contact = () => {
   return (
@@ -35,16 +37,16 @@ const Contact = () => {
                         layout="fill"
                         objectFit="contain"
                         alt="Person"
-                        style={{ top: '0%', left: '25%' }}
+                        style={{ top: '0%', left: '15%' }}
                     />
-                    <div className='absolute w-[70px] h-[70px] animate-bounce' style={{ top: '40%', left: '5%' }}>
-                        <Image src={squareImage1} width={70} height={70} alt="Square 1"/>
+                    <div className='absolute w-[120px] h-[120px] animate-bounce' style={{ top: '40%', left: '5%' }}>
+                        <Image src={logo1} width={120} height={120} alt="Square 1"/>
                     </div>
-                    <div className='absolute w-[70px] h-[70px] animate-bounce' style={{ top: '10%', right: '5%' }}>
-                        <Image src={squareImage1} width={70} height={70} alt="Square 2"/>
+                    <div className='absolute w-[120px] h-[120px] animate-bounce' style={{ top: '10%', right: '5%' }}>
+                        <Image src={logo2} width={120} height={120} alt="Square 2"/>
                     </div>
-                    <div className='absolute w-[70px] h-[70px] animate-bounce' style={{ top: '50%', left: '100%' }}>
-                        <Image src={squareImage1} width={70} height={70} alt="Square 3"/>
+                    <div className='absolute w-[120px] h-[120px] animate-bounce' style={{ top: '50%', left: '100%' }}>
+                        <Image src={logo3} width={120} height={120} alt="Square 3"/>
                     </div>
                 </div>
             </div>
@@ -70,7 +72,7 @@ const Contact = () => {
                     </div>
                     <div className='mt-64'>
                         <h1 className='roboto text-[35px] text-black font-bold leading-tight'>Send us a message.</h1>
-                        <h1 className='text-[38px] text-black font-[400] leading-tight'>We will contact you and give you our proposal completely free of charge</h1>
+                        <h1 className='text-[38px] text-black font-[400] leading-tight'>Feel free to reach out, We will get back to you shortly</h1>
                     </div>
                 </div>
                 <form action="" className='w-[50%] px-5 py-10'>

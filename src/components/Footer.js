@@ -16,7 +16,7 @@ import messageAnimation from '../../public/assets/animations/message.json'
 
 const Footer = () => {
   return (
-    <footer className={`w-[60%] mx-auto pb-8 pt-12 bg-white`}>
+    <footer className={`w-full px-[20%] mx-auto pb-8 pt-12 bg-white`}>
         <div className={`flex flex-row justify-between`}>
             <div className=''>
                 <div className='w-32 h-24 relative'>
