@@ -31,12 +31,12 @@ const Navbar = () => {
       </div>
       <ul className="flex space-x-4 w-[55%] justify-between relative">
         <li className="relative">
-          <Link href="/newApp#Home" className='text-black hover:text-[#FF0054]'>
+          <Link href="/" className='text-black hover:text-[#FF0054]'>
             <h1 className="text-[16px] roboto-bold uppercase font-semibold">Home</h1>
           </Link>
         </li>
         <li className="relative">
-          <Link href="/newApp#About" className='text-black hover:text-[#FF0054]'>
+          <Link href="/About" className='text-black hover:text-[#FF0054]'>
             <p className="roboto-bold uppercase font-semibold">About us</p>
           </Link>
         </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
           onMouseEnter={() => setIsDropdownVisible(true)}
           onMouseLeave={() => setIsDropdownVisible(false)}
         >
-          <Link href="/newApp#About" className='flex items-center text-black hover:text-[#FF0054]'>
+          <Link href="/Packages" className='flex items-center text-black hover:text-[#FF0054]'>
             <p className="roboto-bold uppercase font-semibold">Packages</p>
             <FaArrowDown className='ml-2 text-[17px]' />
           </Link>
@@ -61,12 +61,12 @@ const Navbar = () => {
           )}
         </li>
         <li className="relative">
-          <Link href="/newApp#Gallery" className='text-black hover:text-[#FF0054]'>
+          <Link href="/our-work" className='text-black hover:text-[#FF0054]'>
             <p className="roboto-bold uppercase font-semibold">Our work</p>
           </Link>
         </li>
         <li className="relative">
-          <Link href="/newApp#Contact" className='text-black hover:text-[#FF0054]'>
+          <Link href="/Contact" className='text-black hover:text-[#FF0054]'>
             <p className="roboto-bold uppercase font-semibold">Contact</p>
           </Link>
         </li>
