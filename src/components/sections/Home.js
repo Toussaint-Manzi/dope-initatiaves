@@ -28,7 +28,7 @@ const Home = () => {
             <h1 className='text-[70px] text-black font-[600]'>girls and<span className='bg-[#FF0054] text-white rounded-md px-5'>women</span></h1>
           </div>
           <div className='relative w-full'>
-            <Link href="#About" className='absolute z-10 h-[60px] bg-white border-[3px] border-[#FF0054] rounded-md flex items-center justify-center text-[#FF0054] px-8 py-8 mt-16 hover:bg-[#FF0054] hover:text-white'>
+            <Link href="/Packages" className='absolute z-10 h-[60px] bg-white border-[3px] border-[#FF0054] rounded-md flex items-center justify-center text-[#FF0054] px-8 py-8 mt-16 hover:bg-[#FF0054] hover:text-white'>
               <FaArrowRight className='text-[20px] mr-4'/>
               <h1 className="text-[19px] grotesk font-medium">See our products</h1>
             </Link>

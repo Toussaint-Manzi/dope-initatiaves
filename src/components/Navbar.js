@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../../public/assets/images/logo.png';
@@ -6,6 +7,7 @@ import Products from './Products';
 import { FaArrowDown } from "react-icons/fa";
 
 const Navbar = () => {
+  const router = useRouter();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
 
@@ -25,19 +27,19 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`flex justify-between items-center w-full fixed px-[20%] mx-auto transition-all duration-300 z-50 ${isScrolled ? 'bg-white ' : 'bg-[#F9F0EC]'}`}>
+    <nav className={`flex justify-between items-center w-full fixed px-[20%] mx-auto transition-all duration-300 z-50 ${isScrolled ? 'bg-white' : 'bg-[#F9F0EC]'}`}>
       <div className='w-32 h-24 relative'>
         <Image src={logo} fill alt="Logo" />
       </div>
       <ul className="flex space-x-4 w-[55%] justify-between relative">
         <li className="relative">
-          <Link href="/" className='text-black hover:text-[#FF0054]'>
-            <h1 className="text-[16px] roboto-bold uppercase font-semibold">Home</h1>
+          <Link href="/">
+            <h1 className={`text-[16px] roboto-bold uppercase font-semibold ${router.pathname === '/' ? 'text-[#FF0054] font-bold' : 'text-black hover:text-[#FF0054]'}`}>Home</h1>
           </Link>
         </li>
         <li className="relative">
-          <Link href="/About" className='text-black hover:text-[#FF0054]'>
-            <p className="roboto-bold uppercase font-semibold">About us</p>
+          <Link href="/About">
+            <p className={`roboto-bold uppercase font-semibold ${router.pathname === '/About' ? 'text-[#FF0054] font-bold' : 'text-black hover:text-[#FF0054]'}`}>About us</p>
           </Link>
         </li>
         <li
@@ -45,9 +47,11 @@ const Navbar = () => {
           onMouseEnter={() => setIsDropdownVisible(true)}
           onMouseLeave={() => setIsDropdownVisible(false)}
         >
-          <Link href="/Packages" className='flex items-center text-black hover:text-[#FF0054]'>
-            <p className="roboto-bold uppercase font-semibold">Packages</p>
-            <FaArrowDown className='ml-2 text-[17px]' />
+          <Link href="/Packages">
+            <div className={`flex items-center ${router.pathname === '/Packages' ? 'text-[#FF0054] font-bold' : 'text-black hover:text-[#FF0054]'}`}>
+              <p className="roboto-bold uppercase font-semibold">Packages</p>
+              <FaArrowDown className='ml-2 text-[17px]' />
+            </div>
           </Link>
           {isDropdownVisible && (
             <div
@@ -61,13 +65,13 @@ const Navbar = () => {
           )}
         </li>
         <li className="relative">
-          <Link href="/our-work" className='text-black hover:text-[#FF0054]'>
-            <p className="roboto-bold uppercase font-semibold">Our work</p>
+          <Link href="/our-work">
+            <p className={`roboto-bold uppercase font-semibold ${router.pathname === '/our-work' ? 'text-[#FF0054] font-bold' : 'text-black hover:text-[#FF0054]'}`}>Our work</p>
           </Link>
         </li>
         <li className="relative">
-          <Link href="/Contact" className='text-black hover:text-[#FF0054]'>
-            <p className="roboto-bold uppercase font-semibold">Contact</p>
+          <Link href="/Contact">
+            <p className={`roboto-bold uppercase font-semibold ${router.pathname === '/Contact' ? 'text-[#FF0054] font-bold' : 'text-black hover:text-[#FF0054]'}`}>Contact</p>
           </Link>
         </li>
       </ul>
