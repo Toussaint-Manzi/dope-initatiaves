@@ -44,7 +44,7 @@ const Products = () => {
                 <FaArrowRight className='text-black text-2xl mt-10'/>
             </div>
         </Link>
-        <Link href="ishyo-eshop">
+        <Link href="keza-eshop">
             <div>
                 <div className='h-[30px] w-[100px] bg-[#00d084] text-white rounded flex flex-col justify-center px-2'>
                     <h1 className='font-semibold text-white roboto'>03</h1>
