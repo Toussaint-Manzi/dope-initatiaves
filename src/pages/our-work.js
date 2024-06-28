@@ -34,11 +34,11 @@ const ourWork = () => {
                       <Image
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover  object-center cursor-pointer"
-                      src="/assets/images/gallery3.jpg"
+                      src="/assets/images/gall1.jpeg"
                       fill
                       onClick={() =>
                           handleClick(
-                            "/assets/images/gallery3.jpg"
+                            "/assets/images/gall1.jpeg"
                           )
                         } />
                   </div>
@@ -46,11 +46,11 @@ const ourWork = () => {
                       <Image
                       alt="gallery"
                       className="block h-full w-full rounded-lg object-cover  object-center cursor-pointer"
-                      src="/assets/images/gallery2.jpg" 
+                      src="/assets/images/gall4.jpeg" 
                       fill
                       onClick={() =>
                           handleClick(
-                            "/assets/images/gallery2.jpg"
+                            "/assets/images/gall4.jpeg"
                           )
                         } />
                   </div>
@@ -60,11 +60,11 @@ const ourWork = () => {
                     <Image
                     alt="gallery"
                     className="block h-full w-full rounded-lg object-cover  object-center cursor-pointer"
-                    src="/assets/images/gallery3.jpg"
+                    src="/assets/images/gall6.jpg"
                     fill
                     onClick={() =>
                         handleClick(
-                          "/assets/images/gallery3.jpg"
+                          "/assets/images/gall6.jpg"
                         )
                       } />
                   </div>
