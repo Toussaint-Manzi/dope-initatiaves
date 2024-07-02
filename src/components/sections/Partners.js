@@ -24,7 +24,7 @@ const responsive = {
 };
 function Partners() {
 	return (
-		<div className='w-full px-[20%] pt-4 pb-20 mx-auto bg-[#F9F0EC]'>
+		<div className='w-full px-[20%] pt-4 pb-20 mx-auto bg-[#F9F0EC] sm:pt-48 xl:px-[10%]'>
 			<h2 className='text-center text-2xl font-[700] grotesk text-[#FF0054] my-7'>Our partners</h2>
 			<section id='clients' className='clients section-bg'>
 				<div className='container' data-aos='zoom-in'>

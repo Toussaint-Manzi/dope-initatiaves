@@ -32,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`flex justify-between items-center w-full fixed px-[20%] mx-auto transition-all duration-300 z-50 ${isScrolled ? 'bg-white' : 'bg-[#F9F0EC]'}`}>
+    <nav className={`flex justify-between items-center w-full fixed px-[20%] mx-auto transition-all duration-300 z-50 xs:px-[5%] ${isScrolled ? 'bg-white' : 'bg-[#F9F0EC]'}`}>
       <div className='w-32 h-24 relative'>
         <Image src={logo} fill alt="Logo" />
       </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className={`fixed inset-y-0 right-0 w-64 bg-white shadow-xl transform transition-transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} lgm:hidden`}>
-        <button onClick={handleMenuToggle} aria-label="Toggle menu">
+        <button onClick={handleMenuToggle} aria-label="Toggle menu" className='p-4'>
           {isMenuOpen && <FaTimes size={24} className='text-[#FF0054] justify-self-end'/>}
         </button>
         <ul className="flex flex-col space-y-4 p-4">

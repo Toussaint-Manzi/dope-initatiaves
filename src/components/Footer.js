@@ -16,9 +16,9 @@ import messageAnimation from '../../public/assets/animations/message.json'
 
 const Footer = () => {
   return (
-    <footer className={`w-full px-[20%] mx-auto pb-8 pt-12 bg-white`}>
-        <div className={`flex flex-row justify-between`}>
-            <div className=''>
+    <footer className={`w-full px-[20%] mx-auto pb-8 pt-12 bg-white sm:px-[10%]`}>
+        <div className={`flex flex-row justify-between xl:flex-col`}>
+            <div className='xl:my-20'>
                 <div className='w-32 h-24 relative'>
                     <Image
                         src={logo}
@@ -29,49 +29,51 @@ const Footer = () => {
                     <h1 className='roboto text-[18px] text-black font-[400]'>Monday – Friday: 09:00 AM – 05:00 PM</h1>
                     <h1 className='roboto text-[18px] text-black font-[400]'>Saturday – Sunday: 10:00 AM – 05:00 PM</h1>
                 </div>
-                <div className='flex justify-between items-center w-full'>
-                    <div className='w-10 h-12relative '>
+                <div className='flex justify-between items-center w-full xl:w-[50%]'>
+                    <div className='w-10'>
                         <Image
                             src={logo2}
                         />
                     </div>
-                    <div className='w-10 h-12relative '>
+                    <div className='w-10'>
                         <Image
                             src={logo4}
                         />
                     </div>
-                    <div className='w-10 h-12relative '>
+                    <div className='w-10'>
                         <Image
                             src={logo3}
                         />
                     </div>
-                    <div className='w-10 h-12relative '>
+                    <div className='w-10'>
                         <Image
                             src={logo1}
                         />
                     </div>
-                    <div className='w-10 h-12relative '>
+                    <div className='w-10'>
                         <Image
                             src={logo5}
                         />
                     </div>
                 </div>
             </div>
-            <div className='flex w-[50%] justify-between'>
-                <div>
-                    <div className='mb-6'>
-                        <h1 className='roboto text-lg font-semibold text-black'>Useful Links</h1>
-                        <div className='w-[20px] border-b-[5px] border-orange-500 mt-1'></div>
+            <div className='flex xl:flex-col'>
+                <div className='flex w-[50%] justify-between xl:flex-col'>
+                    <div>
+                        <div className='mb-6'>
+                            <h1 className='roboto text-lg font-semibold text-black'>Useful Links</h1>
+                            <div className='w-[20px] border-b-[5px] border-orange-500 mt-1'></div>
+                        </div>
+                        <ul>
+                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Home</li>
+                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>About us</li>
+                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Packages</li>
+                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Our work</li>
+                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Contact</li>
+                        </ul>
                     </div>
-                    <ul>
-                        <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Home</li>
-                        <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>About us</li>
-                        <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Packages</li>
-                        <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Our work</li>
-                        <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Contact</li>
-                    </ul>
-                </div>
-                <div className='border border-[#eed3c9] w-[70%] flex flex-col items-center justify-between py-8 px-10'>
+                </div>         
+                <div className='border border-[#eed3c9] w-[70%] xs:w-full flex flex-col items-center justify-between py-8 px-10 xl:my-20' >
                     <h1 className='roboto text-lg font-medium text-black text-center'>Stay up to date and subscribe to our newsletter</h1>
                     <div className='w-[150px] h-[150px]'>
                         <Lottie animationData={messageAnimation}/>
@@ -84,13 +86,13 @@ const Footer = () => {
                         <h1 className="text-[17px] grotesk font-medium">Subscribe</h1>
                     </Link>
                 </div>
-            </div>         
+            </div>
         </div>
         <div className='h-[1px] w-full bg-[#eed3c9] mt-20'>
         </div>
-        <div className='mt-10 w-full flex justify-between items-center'>
+        <div className='mt-10 w-full flex justify-between items-center xl:flex-col'>
             <p className='text-gray-500'>Dope initiatives © {new Date().getFullYear()} All rights reserved</p>
-            <div className='flex justify-between w-[15%]'>
+            <div className='flex justify-between w-[15%] xl:w-[30%] my-5 xs:w-[50%]'>
                 <div className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
                     <AiFillInstagram className='text-white text-xl'/>
                 </div>
