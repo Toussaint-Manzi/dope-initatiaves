@@ -4,6 +4,7 @@ import About from '@/components/sections/About'
 import Contact from '@/components/sections/Contact'
 import Gallery from '@/components/sections/Gallery'
 import Home from '@/components/sections/Home'
+import Partners from '@/components/sections/Partners'
 import React from 'react'
 
 const newApp = () => {
@@ -21,6 +22,9 @@ const newApp = () => {
       </section>
       <section id="Contact">
         <Contact/>
+      </section>
+      <section id="Partners">
+        <Partners/>
       </section>
       <Footer/>
     </div>

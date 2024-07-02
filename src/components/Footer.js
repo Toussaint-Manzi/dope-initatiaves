@@ -24,10 +24,10 @@ const Footer = () => {
                         src={logo}
                     />
                 </div>
-                <h1 className='grotesk text-[25px] text-[#FF0054] font-[400]'>(+250) 788343434</h1>
+                <h1 className='grotesk text-[25px] text-[#FF0054] font-[400]'>(+250) 789294922</h1>
                 <div className='flex flex-col my-10'>
-                    <h1 className='roboto text-[18px] text-black font-[400]'>Monday – Friday: 06:00 AM – 10:00 PM</h1>
-                    <h1 className='roboto text-[18px] text-black font-[400]'>Saturday – Sunday: 08:00 AM – 08:00 PM</h1>
+                    <h1 className='roboto text-[18px] text-black font-[400]'>Monday – Friday: 09:00 AM – 05:00 PM</h1>
+                    <h1 className='roboto text-[18px] text-black font-[400]'>Saturday – Sunday: 10:00 AM – 05:00 PM</h1>
                 </div>
                 <div className='flex justify-between items-center w-full'>
                     <div className='w-10 h-12relative '>
