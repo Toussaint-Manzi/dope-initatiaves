@@ -12,8 +12,8 @@ const About = () => {
                 <div className="w-full  h-full p-1 md:p-2 relative">
                     <Image
                         alt="gallery"
-                        className="block h-full w-full rounded-lg object-cover  object-center cursor-pointer"
-                        src="/assets/images/gall6.jpg"
+                        className="block h-full w-full rounded-2xl object-cover  object-center cursor-pointer"
+                        src="/assets/images/gall5.jpeg"
                         fill
                     />
                 </div>
@@ -22,7 +22,7 @@ const About = () => {
                 <div className="w-full  h-full p-1 md:p-2 relative">
                     <Image
                         alt="gallery"
-                        className="block h-full w-full rounded-lg object-cover  object-center cursor-pointer"
+                        className="block h-full w-full rounded-2xl object-cover  object-center cursor-pointer"
                         src="/assets/images/gall4.jpeg"
                         fill
                     />
@@ -31,9 +31,9 @@ const About = () => {
         </div>
         <div className='w-[45%] self-start'>
             <h1 className='grotesk text-[32px] text-[#FF0054] font-semibold'>Who we are</h1>
-            <h1 className='text-[30px] text-black font-[600] roboto my-6'>Dope Initiative is dedicated to empowering girls and women by championing reproductive health awareness and access to essential resources.</h1>
-            <h1 className='text-[20px] text-black font-[300] roboto my-2'>Keza Quiz, Dope Initiative’s brainchild is an engaging e-game that educates young girls about puberty and reproductive health. </h1>
-            <h1 className='text-[20px] text-black font-[300] roboto'>Dope Initiative also created Keza Pad Bank, a network of vending machines that is providing affordable sanitary pads in schools, tackling period poverty, and more recently, the initiative added Ishyo e-shop to the family, which offers a comprehensive range of maternity and reproductive health products, ensuring women have access to essentials throughout their journeys.</h1>
+            <h1 className='text-[25px] text-black font-[600] roboto my-6'>Dope Initiatives is a young-led social enterprise committed to revolutionizing sexual reproductive health education in a fun way. Additionally, we are contributing to the end of period poverty by distributing free and sustainable sanitary pads in secondary schools using the Keza Pad Bank, a sanitary pad vending machine.</h1>
+            <h1 className='text-[20px] text-black font-[300] roboto my-2'>We provide evidence-based sexual and reproductive information in a friendly, trustful, and inclusive way using the Keza Quiz Game, focusing on raising a healthy, thriving generation free from teenage pregnancies, unwanted pregnancies, and sexually transmitted infections, including HIV/AIDS.</h1>
+            <h1 className='text-[20px] text-black font-[300] roboto'>Dope Initiatives is a leading and licensed health gaming company based in Rwanda. It is a friendly, safe, trustful, and informative platform for young people and contributes to a girl's education and women's health.</h1>
             <div className='relative w-full'>
                 <Link href="/Contact" className='absolute z-10 h-[60px] bg-white border-[3px] border-[#FF0054] rounded-md flex items-center justify-center text-[#FF0054] px-8 py-8 mt-16 hover:bg-[#FF0054] hover:text-white'>
                     <h1 className="text-[19px] grotesk font-medium">Get In Touch</h1>
