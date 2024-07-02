@@ -28,7 +28,7 @@ const Contact = () => {
                     <h1 className='roboto uppercase text-[15px] text-[#FF0054] font-semibold'>Dope Initiatives</h1>
                     <div className='grotesk leading-tight'>
                         <h1 className='text-[70px] text-black font-[600]'>Contact <span className='bg-[#FF0054] text-white rounded-md px-5'>US</span></h1>
-                        <h1 className='text-[40px] text-black font-[400] my-16'>Level 13, 2 Elizabeth St, Melbourne, Victoria 3000, Australia</h1>
+                        <h1 className='text-[40px] text-black font-[400] my-16'>Career center, 7th floor, Gasabo, Kimihurura</h1>
                     </div>
                 </div>
                 <div className='relative w-[45%] h-[900px]'>
@@ -54,7 +54,7 @@ const Contact = () => {
         <div className='bg-white w-[60%] mx-auto flex justify-between items-center h-[100px] rounded-3xl grotesk px-10 -mt-32'>
             <div className='flex items-center'>
                 <FaPhone className='text-4xl text-[#FF0054] mr-3'/>
-                <h1 className='text-[30px] text-black font-[400] my-16'>(+250) 788343434</h1>
+                <h1 className='text-[30px] text-black font-[400] my-16'>(+250) 789294922</h1>
             </div>
             <div className='flex items-center'>
                 <IoMdMail className='text-4xl text-[#FF0054] mr-3'/>
