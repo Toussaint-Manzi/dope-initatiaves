@@ -77,36 +77,6 @@ function Partners() {
 								alt='MINEDUC'
 							/>
 						</div>
-
-						{/* <div className='d-flex align-items-center justify-content-center my-3'>
-							<Image
-								src='/assets/images/Visa.svg'
-								className='img-fluid'
-								width={110}
-								height={60}
-								alt=''
-							/>
-						</div>
-
-						<div className='d-flex align-items-center justify-content-center my-3'>
-							<Image
-								src='/assets/images/Visa.svg'
-								className='img-fluid'
-								width={110}
-								height={60}
-								alt=''
-							/>
-						</div>
-
-						<div className='d-flex align-items-center justify-content-center my-3'>
-							<Image
-								src='/assets/images/Visa.svg'
-								className='img-fluid'
-								width={110}
-								height={60}
-								alt=''
-							/>
-						</div> */}
 					</Carousel>
 				</div>
 			</section>
