@@ -6,8 +6,10 @@ import personImage from '../../public/assets/images/Pose 1.png';
 import logo1 from '../../public/assets/images/logo.png';
 import logo2 from '../../public/assets/images/Logo-2.png';
 import logo3 from '../../public/assets/images/LOGO-KEZA-QUIZ.png';
-import playStore from '../../public/assets/images/playstore.png'
-import appStore from '../../public/assets/images/appstore.png'
+import playStore from '../../public/assets/images/playstore.png';
+import appStore from '../../public/assets/images/appstore.png';
+import Lottie from 'lottie-react';
+import commingSoonAnimation from '../../public/assets/animations/coming_soon.json'
 
 const ProductDetails = ({
     title,
@@ -36,7 +38,7 @@ const ProductDetails = ({
           <div className='grotesk leading-tight'>
             <h1 className='text-[30px] text-black font-[600] '>{details}</h1>
           </div>
-            <div className={title === "Ishyo E-shop"? 'w-32 h-16 relative mt-10' : 'w-32 h-24 relative mt-10'}>
+            <div className={title === "Keza E-shop"? 'w-32 h-14 relative mt-10' : 'w-32 h-24 relative mt-10'}>
                 <Image src={logo} fill alt="Logo" />
             </div>
             {title === "Keza Quiz Game" &&
@@ -61,6 +63,13 @@ const ProductDetails = ({
                     <span>Download for windows</span>
                 </a>
             </div>}
+
+            {
+              title === 'Keza E-shop' &&
+              <div className='-mt-24 -ml-10 w-[450px]'>
+                <Lottie animationData={commingSoonAnimation}/>
+              </div>
+            }
         </div>
         <div className='relative w-[45%] h-[100%]'>
           <Image
