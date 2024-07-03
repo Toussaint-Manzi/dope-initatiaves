@@ -57,19 +57,32 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex xl:flex-col'>
+            <div className='flex xl:flex-col mt-5'>
                 <div className='flex w-[50%] justify-between xl:flex-col'>
                     <div>
-                        <div className='mb-6'>
+                        <div className='mb-10'>
                             <h1 className='roboto text-lg font-semibold text-black'>Useful Links</h1>
                             <div className='w-[20px] border-b-[5px] border-orange-500 mt-1'></div>
                         </div>
-                        <ul>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Home</li>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>About us</li>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Packages</li>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Our work</li>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Contact</li>
+                        <ul className='h-full'>
+                            <Link href='/'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Home</li>
+                            </Link>
+                            <Link href='/About'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>About us</li>
+                            </Link>
+                            <Link href='/Packages'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Packages</li>
+                            </Link>
+                            <Link href='/our-work'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Our work</li>
+                            </Link>
+                            <Link href='/Contact'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Contact</li>
+                            </Link>
+                            <Link href='/privacy'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Privacy</li>
+                            </Link>
                         </ul>
                     </div>
                 </div>         

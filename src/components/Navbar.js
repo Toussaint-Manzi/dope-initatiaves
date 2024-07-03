@@ -59,7 +59,7 @@ const Navbar = () => {
         >
           <Link href="/Packages">
             <div className={`flex items-center ${router.pathname === '/Packages' ? 'text-[#FF0054] font-bold' : 'text-black hover:text-[#FF0054]'}`}>
-              <p className="roboto-bold uppercase font-semibold">Packages</p>
+              <p className="roboto-bold uppercase font-semibold">Products</p>
               <FaArrowDown className='ml-2 text-[17px]' />
             </div>
           </Link>

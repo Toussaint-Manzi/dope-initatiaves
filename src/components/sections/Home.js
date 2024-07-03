@@ -25,7 +25,7 @@ const Home = () => {
           <div className='grotesk leading-tight'>
             <h1 className='text-[70px] text-black font-[600] sm:text-[50px] xs:text-[35px]'>We are</h1>
             <h1 className='text-[70px] text-black font-[600] sm:text-[50px] xs:text-[35px]'>dedicated to empowering </h1>
-            <h1 className='text-[70px] text-black font-[600] sm:text-[50px] xs:text-[35px]'>girls and<span className='bg-[#FF0054] text-white rounded-md px-5'>women</span></h1>
+            <h1 className='text-[70px] text-black font-[600] sm:text-[50px] xs:text-[35px]'><span className='bg-[#FF0054] text-white rounded-md px-5'>girls</span> and<span className='bg-[#FF0054] text-white rounded-md px-5'>women</span></h1>
           </div>
           <div className='relative w-full'>
             <Link href="/Packages" className='sm:h-[40px] xs:h-[30px] xs:w-2/3 xs:p-5 xs:mt-8 absolute z-10 h-[60px] bg-white border-[3px] border-[#FF0054] rounded-md flex items-center justify-center text-[#FF0054] px-8 py-8 mt-16 hover:bg-[#FF0054] hover:text-white'>
