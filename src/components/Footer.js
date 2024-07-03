@@ -7,12 +7,14 @@ import logo5 from '../../public/assets/images/image 3.png'
 import Image from "next/image"
 import Link from 'next/link';
 import { IoIosSend } from "react-icons/io";
-import { MdLocationPin } from 'react-icons/md'
-import { FaEnvelope,FaPhoneAlt ,FaFacebookF} from 'react-icons/fa'
-import { BsTwitter } from 'react-icons/bs'
-import { AiFillInstagram } from 'react-icons/ai'
+import { MdLocationPin } from 'react-icons/md';
+import { FaEnvelope,FaPhoneAlt ,FaFacebookF} from 'react-icons/fa';
+import { BsTwitter, BsLinkedin } from 'react-icons/bs';
+
+import { AiFillInstagram } from 'react-icons/ai';
+import { MdEmail } from 'react-icons/md';
 import Lottie from 'lottie-react';
-import messageAnimation from '../../public/assets/animations/message.json'
+import messageAnimation from '../../public/assets/animations/message.json';
 
 const Footer = () => {
   return (
@@ -105,16 +107,19 @@ const Footer = () => {
         </div>
         <div className='mt-10 w-full flex justify-between items-center xl:flex-col'>
             <p className='text-gray-500'>Dope initiatives © {new Date().getFullYear()} All rights reserved</p>
-            <div className='flex justify-between w-[15%] xl:w-[30%] my-5 xs:w-[50%]'>
-                <div className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
+            <div className='flex justify-between w-[20%] xl:w-[35%] my-5 xs:w-[50%]'>
+                <Link href="https://www.instagram.com/dope_initiatives/" target='_blank' className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
                     <AiFillInstagram className='text-white text-xl'/>
-                </div>
-                <div className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
+                </Link>
+                <Link href="https://x.com/Dope_Initiative" target='_blank' className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
                     <BsTwitter className='text-white text-lg'/>
-                </div>
-                <div className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
-                    <FaFacebookF className='text-white text-lg'/>
-                </div>
+                </Link>
+                <Link href="https://www.linkedin.com/company/dopeinitiatives" target='_blank' className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
+                    <BsLinkedin className='text-white text-lg'/>
+                </Link>
+                <Link href="mailto:dopeinitiativesltd@gmail.com" target='_blank' className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
+                    <MdEmail className='text-white text-lg'/>
+                </Link>
             </div>
         </div> 
     </footer>

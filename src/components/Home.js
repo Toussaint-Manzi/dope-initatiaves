@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className={`${styles.myFont}flex flex-col h-screen bg-white px-44 xl:px-20 md:h-full xs:px-10 sm:h-full xtra:px-5`}>
         <div className='flex justify-end'>
-            <div className=' w-32 h-24 relative '>
+            <div className=' w-32 h-24 relative'>
                 <Image
                     src={logo}
                     fill
@@ -45,7 +45,7 @@ const Home = () => {
                         <h1 className={`${styles.myFont} text-white text-md font-semibold`}>Keza Quiz</h1>
                         <div className='w-[130px] flex justify-between'>
                             <Link href="mailto:dopeinitiativesltd@gmail.com" className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
-                                    <MdEmail className='text-[#ff6896] text-sm'/>
+                                <MdEmail className='text-[#ff6896] text-sm'/>
                             </Link>
                             <Link href="https://x.com/kezagame?s=11" className='bg-white p-[2px] h-[23px] w-[23px] flex justify-center items-center rounded-full cursor-pointer'>
                                     <BsTwitter className='text-[#ff6896] text-xs'/>
