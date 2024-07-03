@@ -23,15 +23,15 @@ const Contact = () => {
                 backgroundSize: 'contain'
             }}
         >
-            <div className='w-[60%] mx-auto flex justify-between items-center h-full '>
-                <div className='flex flex-col items-start self-start mt-48 w-[50%]'>
+            <div className='w-[60%] mx-auto flex justify-between items-center h-full xl:flex-col-reverse xl:justify-start xl:w-[80%] md:items-start sm:w-[90%]'>
+                <div className='flex flex-col items-start self-start mt-48 w-[50%] xl:mt-0 xl:w-[80%] sm:w-[90%] pt-[150px]'>
                     <h1 className='roboto uppercase text-[15px] text-[#FF0054] font-semibold'>Dope Initiatives</h1>
                     <div className='grotesk leading-tight'>
-                        <h1 className='text-[70px] text-black font-[600]'>Contact <span className='bg-[#FF0054] text-white rounded-md px-5'>US</span></h1>
-                        <h1 className='text-[40px] text-black font-[400] my-16'>Career center, 7th floor, Gasabo, Kimihurura</h1>
+                        <h1 className='text-[70px] text-black font-[600] xs:text-[45px]'>Contact <span className='bg-[#FF0054] text-white rounded-md px-5'>US</span></h1>
+                        <h1 className='text-[40px] text-black font-[400] my-16 xs:text-[25px] xs:my-5'>Career center, 7th floor, Gasabo, Kimihurura</h1>
                     </div>
                 </div>
-                <div className='relative w-[45%] h-[900px]'>
+                <div className='relative w-[45%] h-[900px] xl:w-[80%] sm:w-[90%] xs:hidden'>
                     <Image
                         src={personImage}
                         layout="fill"
@@ -51,31 +51,31 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        <div className='bg-white w-[60%] mx-auto flex justify-between items-center h-[100px] rounded-3xl grotesk px-10 -mt-32'>
+        <div className='bg-white w-[60%] mx-auto flex justify-between items-center h-[100px] rounded-3xl grotesk px-10 -mt-32 xl:mt-10 xl:w-[80%] sm:w-[100%] sm:flex-col sm:justify-start sm:h-full xs:w-[95%]'>
             <div className='flex items-center'>
-                <FaPhone className='text-4xl text-[#FF0054] mr-3'/>
-                <h1 className='text-[30px] text-black font-[400] my-16'>(+250) 789294922</h1>
+                <FaPhone className='text-4xl text-[#FF0054] mr-3 xl:text-3xl xs:text-2xl'/>
+                <h1 className='text-[30px] text-black font-[400] my-16 xl:text-[18px] sm:text-[15px] md:my-3 xs:text-[20px]'>(+250) 789294922</h1>
             </div>
             <div className='flex items-center'>
-                <IoMdMail className='text-4xl text-[#FF0054] mr-3'/>
-                <h1 className='text-[30px] text-black font-[400] my-16'>dopeinitiativesltd@gmail.com</h1>
+                <IoMdMail className='text-4xl text-[#FF0054] mr-3 xl:text-3xl xs:text-2xl'/>
+                <h1 className='text-[30px] text-black font-[400] my-16 xl:text-[18px] sm:text-[15px] md:my-3 xs:text-[20px]'>dopeinitiativesltd@gmail.com</h1>
             </div>
         </div>
-        <div className='relative bg-white w-[60%] mx-auto flex flex-col justify-between items-start h-full rounded-3xl grotesk px-20 mt-48'>
-            <div className='flex justify-between items-start '>
-                <div className='w-[40%] flex flex-col justify-center items-center'>
-                    <div className='absolute -top-24 h-[270px] w-[300px] my-8'>
+        <div className='relative bg-white w-[60%] mx-auto flex flex-col justify-between items-start h-full rounded-3xl grotesk px-20 mt-48 xl:w-[80%] xs:w-[95%] xs:px-3'>
+            <div className='flex justify-between items-start md:flex-col md:items-center'>
+                <div className='w-[40%] flex flex-col justify-center items-center md:w-[80%] md:mb-5 sm:mb-0'>
+                    <div className='absolute -top-24 h-[270px] w-[300px] my-8 md:h-[180px] md:w-[200px]'>
                         <Image
                             src={message}
                             fill
                         />
                     </div>
-                    <div className='mt-64'>
-                        <h1 className='roboto text-[35px] text-black font-bold leading-tight'>Send us a message.</h1>
-                        <h1 className='text-[38px] text-black font-[400] leading-tight'>Feel free to reach out, We will get back to you shortly</h1>
+                    <div className='mt-64 xs:mt-36'>
+                        <h1 className='roboto text-[35px] text-black font-bold leading-tight xs:text-[25px]'>Send us a message.</h1>
+                        <h1 className='text-[38px] text-black font-[400] leading-tight xs:text-[25px]'>Feel free to reach out, We will get back to you shortly</h1>
                     </div>
                 </div>
-                <form action="" className='w-[50%] px-5 py-10'>
+                <form action="" className='w-[50%] px-5 py-10 md:w-[80%] xs:w-[95%]'>
                     <div className="relative h-11 w-full min-w-[200px] mb-10">
                         <input placeholder="Full Name*"
                             className="h-full w-full text-gray-700 border-b-[3px] border-[#eed3c9] bg-transparent font-sans text-[17px] font-normal text-blue-gray-700 transition-all placeholder:text-gray-700 disabled:border-0 disabled:bg-blue-gray-50   outline-none focus:border-[#FF0054] px-3" />  
