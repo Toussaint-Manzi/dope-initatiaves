@@ -23,8 +23,8 @@ const Contact = () => {
                 backgroundSize: 'contain'
             }}
         >
-            <div className='w-[60%] mx-auto flex justify-between items-center h-full '>
-                <div className='flex flex-col items-start self-start mt-48 w-[50%]'>
+            <div className='w-[60%] mx-auto  justify-between items-center h-full contact xl:flex-col'>
+                <div className='flex flex-col items-start self-start mt-48 w-[50%] xl:w-full'>
                     <h1 className='roboto uppercase text-[15px] text-[#FF0054] font-semibold'>Dope Initiatives</h1>
                     <div className='grotesk leading-tight'>
                         <h1 className='text-[70px] text-black font-[600]'>Contact <span className='bg-[#FF0054] text-white rounded-md px-5'>US</span></h1>
