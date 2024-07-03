@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { FaArrowRight } from "react-icons/fa";
 import Image from 'next/image';
-import logo1 from '../../public/assets/images/logo.png';
+import logo1 from '../../public/assets/images/Keza-eshop-Logo.png';
 import logo2 from '../../public/assets/images/Logo-2.png';
 import logo3 from '../../public/assets/images/LOGO-KEZA-QUIZ.png';
 import playStore from '../../public/assets/images/playstore.png';
@@ -52,7 +52,7 @@ const ProductDetails = ({
           >
             {showMore ? 'Read Less' : 'Read More...'}
           </button>
-          <div className={title === "Keza E-shop"? 'w-32 h-14 relative mt-10' : 'w-32 h-24 relative mt-10'}>
+          <div className={title === "Keza E-shop"? 'w-32 h-20 relative mt-10' : 'w-32 h-24 relative mt-10'}>
             <Image src={logo} fill alt="Logo" />
           </div>
           {title === "Keza Quiz Game" && (

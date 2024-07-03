@@ -15,8 +15,8 @@ const kezaEshop = () => {
         title="Keza E-shop" 
         details="We believe that every woman, deserves access to high-quality maternity and reproductive health products. That's why we're proud to introduce Keza Shop, an innovative e-commerce platform that aims to put an end to the scarcity of these essential items." 
         paragraphs = { detailsArray }
-        coverPhoto="/assets/images/Pose 1.png"
-        logo="/assets/images/shop1.png"
+        coverPhoto="/assets/images/e-shops.png"
+        logo="/assets/images/Keza-eshop-Logo.png"
       />
     </div>
   )

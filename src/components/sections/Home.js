@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { FaArrowRight } from "react-icons/fa";
 import Image from 'next/image';
 import personImage from '../../../public/assets/images/Pose 1.png';
-import logo1 from '../../../public/assets/images/logo.png';
+import logo1 from '../../../public/assets/images/Keza-eshop-Logo.png';
 import logo2 from '../../../public/assets/images/Logo-2.png';
 import logo3 from '../../../public/assets/images/LOGO-KEZA-QUIZ.png';
 

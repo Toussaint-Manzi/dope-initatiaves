@@ -1,7 +1,7 @@
 import React from 'react'
 import logo2 from '../../public/assets/images/logo2.png'
 import logo1 from '../../public/assets/images/logo.png';
-import logo4 from '../../public/assets/images/shop.png';
+import logo4 from '../../public/assets/images/Keza-eshop-Logo.png';
 import logo3 from '../../public/assets/images/Logo-2.png';
 import { FaArrowDown, FaArrowRight } from "react-icons/fa";
 import Image from 'next/image';
@@ -49,7 +49,7 @@ const Products = () => {
                 <div className='h-[30px] w-[100px] bg-[#00d084] text-white rounded flex flex-col justify-center px-2'>
                     <h1 className='font-semibold text-white roboto'>03</h1>
                 </div>
-                <div className='h-[35px] w-[100px] relative my-12'>
+                <div className='h-[75px] w-[110px] relative my-7 -ml-2'>
                     <Image
                         src={logo4}
                         fill
