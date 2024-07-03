@@ -32,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`flex justify-between items-center w-full fixed px-[20%] mx-auto transition-all duration-300 z-50 xs:px-[5%] ${isScrolled ? 'bg-white' : 'bg-[#F9F0EC]'}`}>
+    <nav className={`flex justify-between items-center w-full fixed px-[18%] mx-auto transition-all duration-300 z-50 xs:px-[5%] ${isScrolled ? 'bg-white' : 'bg-[#F9F0EC]'}`}>
       <div className='w-32 h-24 relative'>
         <Image src={logo} fill alt="Logo" />
       </div>
