@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 const Products = () => {
   return (
-    <div className='flex justify-between'>
+    <div className='grid grid-cols-4 xl:grid-cols-2 xl:gap-10'>
         <Link href="dope-initiative">
             <div>
                 <div className='h-[30px] w-[100px] bg-[#FF0054] text-white rounded flex flex-col justify-center px-2'>
@@ -55,7 +55,7 @@ const Products = () => {
                         fill
                     />
                 </div>
-                <h1 className='grotesk text-[25px] text-black font-[400] leading-4'>Ishyo</h1>
+                <h1 className='grotesk text-[25px] text-black font-[400] leading-4'>Keza</h1>
                 <h1 className='grotesk text-[25px] text-black font-[400]'>E-shop</h1>
                 <h1 className='grotesk text-[17px] text-gray-500 font-[300] mt-5'>Embracing Motherhood</h1>
                 <FaArrowRight className='text-black text-2xl mt-10'/>

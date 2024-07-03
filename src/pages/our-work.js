@@ -14,7 +14,7 @@ const ourWork = () => {
     }
 
   return (
-    <div className='w-full px-[20%] pb-48 bg-[#F9F0EC] pt-[150px] h-screen'>
+    <div className='w-full px-[20%] pb-48 bg-[#F9F0EC] pt-[150px] h-screen xl:px-[10%] xs:px-5'>
             <h1 className={`grotesk mx-auto text-[#FF0054] text-3xl font-[700] text-center mb-20`} >Our work</h1>
             <div className="flex justify-between h-[600px] flex-wrap">
                 <div className="flex w-1/2 flex-wrap sm:w-full">
