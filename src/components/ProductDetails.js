@@ -66,7 +66,7 @@ const ProductDetails = ({
 
             {
               title === 'Keza E-shop' &&
-              <div className='-mt-24 -ml-10 w-[450px]'>
+              <div className='-mt-24 -ml-10 w-[450px] xs:w-[350px] xs:-mt-16'>
                 <Lottie animationData={commingSoonAnimation}/>
               </div>
             }
