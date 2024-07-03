@@ -23,7 +23,7 @@ const ProductDetails = ({
 
   return (
     <div
-      className='w-full h-screen'
+      className='w-full h-screen lg:h-full'
       style={{
         backgroundColor: '#F9F0EC',
         backgroundImage: 'url(/assets/images/background.png)',
@@ -32,11 +32,11 @@ const ProductDetails = ({
         backgroundSize: 'contain'
       }}
     >
-      <div className='w-[60%] mx-auto flex justify-between items-center h-full '>
-        <div className='flex flex-col items-start self-start mt-48 w-[50%]'>
+      <div className='w-[60%] mx-auto flex justify-between items-center h-full xs:w-[85%] xs:pb-10'>
+        <div className='flex flex-col items-start self-start mt-48 w-[50%] xl:w-[80%] xs:w-[95%] xs:mt-32'>
           <h1 className='roboto uppercase text-[15px] text-[#FF0054] font-semibold'>{title}</h1>
           <div className='grotesk leading-tight'>
-            <h1 className='text-[30px] text-black font-[600] '>{details}</h1>
+            <h1 className='text-[30px] text-black font-[600] xs:text-[25px]'>{details}</h1>
           </div>
             <div className={title === "Keza E-shop"? 'w-32 h-14 relative mt-10' : 'w-32 h-24 relative mt-10'}>
                 <Image src={logo} fill alt="Logo" />
@@ -71,7 +71,7 @@ const ProductDetails = ({
               </div>
             }
         </div>
-        <div className='relative w-[45%] h-[100%]'>
+        <div className='relative w-[45%] h-[100%] xl:hidden'>
           <Image
             src={coverPhoto}
             layout="fill"
