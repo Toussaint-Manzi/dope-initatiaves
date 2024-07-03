@@ -7,12 +7,14 @@ import logo5 from '../../public/assets/images/image 3.png'
 import Image from "next/image"
 import Link from 'next/link';
 import { IoIosSend } from "react-icons/io";
-import { MdLocationPin } from 'react-icons/md'
-import { FaEnvelope,FaPhoneAlt ,FaFacebookF} from 'react-icons/fa'
-import { BsTwitter } from 'react-icons/bs'
-import { AiFillInstagram } from 'react-icons/ai'
+import { MdLocationPin } from 'react-icons/md';
+import { FaEnvelope,FaPhoneAlt ,FaFacebookF} from 'react-icons/fa';
+import { BsTwitter, BsLinkedin } from 'react-icons/bs';
+
+import { AiFillInstagram } from 'react-icons/ai';
+import { MdEmail } from 'react-icons/md';
 import Lottie from 'lottie-react';
-import messageAnimation from '../../public/assets/animations/message.json'
+import messageAnimation from '../../public/assets/animations/message.json';
 
 const Footer = () => {
   return (
@@ -57,19 +59,32 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex xl:flex-col'>
+            <div className='flex xl:flex-col mt-5'>
                 <div className='flex w-[50%] justify-between xl:flex-col'>
                     <div>
-                        <div className='mb-6'>
+                        <div className='mb-10'>
                             <h1 className='roboto text-lg font-semibold text-black'>Useful Links</h1>
                             <div className='w-[20px] border-b-[5px] border-orange-500 mt-1'></div>
                         </div>
-                        <ul>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Home</li>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>About us</li>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Packages</li>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Our work</li>
-                            <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054]'>Contact</li>
+                        <ul className='h-full'>
+                            <Link href='/'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Home</li>
+                            </Link>
+                            <Link href='/About'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>About us</li>
+                            </Link>
+                            <Link href='/Packages'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Packages</li>
+                            </Link>
+                            <Link href='/our-work'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Our work</li>
+                            </Link>
+                            <Link href='/Contact'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Contact</li>
+                            </Link>
+                            <Link href='/privacy'>
+                                <li className='text-md roboto text-black mb-1 cursor-pointer hover:text-[#FF0054] my-3'>Privacy</li>
+                            </Link>
                         </ul>
                     </div>
                 </div>         
@@ -92,16 +107,19 @@ const Footer = () => {
         </div>
         <div className='mt-10 w-full flex justify-between items-center xl:flex-col'>
             <p className='text-gray-500'>Dope initiatives © {new Date().getFullYear()} All rights reserved</p>
-            <div className='flex justify-between w-[15%] xl:w-[30%] my-5 xs:w-[50%]'>
-                <div className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
+            <div className='flex justify-between w-[20%] xl:w-[35%] my-5 xs:w-[60%]'>
+                <Link href="https://www.instagram.com/dope_initiatives/" target='_blank' className='w-[45px] h-[45px] xs:w-[40px] xs:h-[40px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
                     <AiFillInstagram className='text-white text-xl'/>
-                </div>
-                <div className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
-                    <BsTwitter className='text-white text-lg'/>
-                </div>
-                <div className='w-[45px] h-[45px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
-                    <FaFacebookF className='text-white text-lg'/>
-                </div>
+                </Link>
+                <Link href="https://x.com/Dope_Initiative" target='_blank' className='w-[45px] h-[45px] xs:w-[40px] xs:h-[40px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 256 256"><path fill="#fff" d="m218.12 209.56l-61-95.8l59.72-65.69a12 12 0 0 0-17.76-16.14l-55.27 60.84l-37.69-59.21A12 12 0 0 0 96 28H48a12 12 0 0 0-10.12 18.44l61 95.8l-59.76 65.69a12 12 0 1 0 17.76 16.14l55.31-60.84l37.69 59.21A12 12 0 0 0 160 228h48a12 12 0 0 0 10.12-18.44M166.59 204L69.86 52h19.55l96.73 152Z"/></svg>
+                </Link>
+                <Link href="https://www.linkedin.com/company/dopeinitiatives" target='_blank' className='w-[45px] h-[45px] xs:w-[40px] xs:h-[40px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
+                    <BsLinkedin className='text-white text-lg'/>
+                </Link>
+                <Link href="mailto:dopeinitiativesltd@gmail.com" target='_blank' className='w-[45px] h-[45px] xs:w-[40px] xs:h-[40px] bg-orange-500 rounded-full flex justify-center items-center cursor-pointer hover:bg-amber-500 hover:transition-all hover:duration-300'>
+                    <MdEmail className='text-white text-lg'/>
+                </Link>
             </div>
         </div> 
     </footer>

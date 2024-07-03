@@ -1,5 +1,8 @@
-import { useState } from 'react'
-import Image from 'next/image'
+import { useState } from 'react';
+import Image from 'next/image';
+import { GiLaurelsTrophy } from "react-icons/gi";
+import { LuLink } from "react-icons/lu";
+import Link from 'next/link';
 
 const ourWork = () => {
 
@@ -14,7 +17,7 @@ const ourWork = () => {
     }
 
   return (
-    <div className='w-full px-[20%] pb-48 bg-[#F9F0EC] pt-[150px] h-screen 2xl:h-full xl:px-[10%] xs:px-5'>
+    <div className='w-full px-[20%] pb-48 bg-[#F9F0EC] pt-[150px] h-full 2xl:h-full xl:px-[10%] xs:px-5 xs:w-full'>
             <h1 className={`grotesk mx-auto text-[#FF0054] text-3xl font-[700] text-center mb-20`} >Our work</h1>
             <div className="flex justify-between h-[600px] flex-wrap">
                 <div className="flex w-1/2 flex-wrap sm:w-full">
@@ -111,6 +114,39 @@ const ourWork = () => {
                   </svg>
                 </div>
             </div>  
+        </div>
+        <div className='flex justify-between my-32 larg:flex-col larg:items-center '>
+          <h1 className={`grotesk text-[#1D3C6A] text-3xl font-[700] larg:text-center mb-10 xs:text-2xl`} >Achievements</h1>
+          <div className='flex justify-between w-[60%] larg:w-[90%] xs:w-[100%] xs:flex-col'>
+            <div className='flex flex-col items-center xs:mb-9'>
+              <GiLaurelsTrophy className='text-gray-700 text-8xl xs:text-6xl'/>
+              <h1 className='grotesk text-[18px] font-[600] mb-2 text-[#FF0054] xs:text-[15px]'>Winner</h1>
+              <h1 className='text-black grotesk xs:text-[15px]'>Innovation Accelerator phase 2</h1>
+              <h1 className='text-black grotesk xs:text-[15px]'>The innovative solution</h1>
+            </div>
+            <div className='flex flex-col items-center'>
+              <GiLaurelsTrophy className='text-gray-700 text-8xl xs:text-6xl'/>
+              <h1 className='grotesk text-[18px] font-[600] mb-2 text-[#FF0054] xs:text-[15px]'>Winner</h1>
+              <h1 className='text-black grotesk xs:text-[15px]'>Hanga pitchfest 2023</h1>
+            </div>
+          </div>
+        </div>
+        <div className='flex justify-between mt-32 larg:flex-col larg:items-center'>
+          <h1 className={`grotesk text-[#1D3C6A] text-3xl font-[700] w-[30%] larg:w-[90%] larg:text-center mb-10 xs:text-2xl`} >Want to know more about our work ?</h1>
+          <div className='flex flex-col w-[60%] larg:w-[90%]'>
+            <Link href='https://youtu.be/yEp4qC5mn2g?si=WjmgPjA_nAxcw6q5' className='flex items-center cursor-pointer my-2 hover:underline' passHref target='blank'>
+              <LuLink className='text-black text-2xl mr-1 hover:underline xs:text-xl' />
+              <h1 className='text-blue-500 text-xl roboto hover:underline xs:text-[15px]'>https://youtu.be/yEp4qC5mn2g?si=WjmgPjA_nAxcw6q5</h1>
+            </Link>
+            <Link href='https://kura.rw/myths-about-sex-ed-made-her-develop-her-app/' className='flex items-center cursor-pointer my-2 hover:underline' passHref target='blank'>
+              <LuLink className='text-black text-2xl mr-1 hover:underline' />
+              <h1 className='text-blue-500 text-xl roboto hover:underline xs:text-[15px]'>https://kura.rw/myths-about-sex-ed-made-her-develop-her-app/</h1>
+            </Link>
+            <Link href='https://en.igihe.com/news/article/150-rwandan-schools-to-receive-sanitary-pad-boxes' className='flex items-center cursor-pointer my-2 hover:underline' passHref target='blank'>
+              <LuLink className='text-black text-2xl mr-1 hover:underline' />
+              <h1 className='text-blue-500 text-xl roboto hover:underline xs:text-[15px]'>https://en.igihe.com/news/article/150-rwandan-schools-to-receive-sanitary-pad-boxes</h1>
+            </Link>
+          </div>
         </div>
     </div>
     
