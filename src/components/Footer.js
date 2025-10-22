@@ -30,7 +30,7 @@ const Footer = () => {
     <footer
       className={`w-full px-[20%] mx-auto pb-8 pt-12 bg-white sm:px-[10%]`}
     >
-      <div className={`flex flex-row justify-between xl:flex-col`}>
+      <div className={`flex flex-row justify-between gap-10 xl:flex-col`}>
         <div className="xl:my-20">
           <div className="w-32 h-24 relative">
             <Image src={logo} />
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex xl:flex-col mt-5">
-          <div className="flex w-[50%] justify-between xl:flex-col">
+          <div className="flex w-[60%] justify-between xl:flex-col">
             <div>
               <div className="mb-10">
                 <h1 className="roboto text-lg font-semibold text-black">
